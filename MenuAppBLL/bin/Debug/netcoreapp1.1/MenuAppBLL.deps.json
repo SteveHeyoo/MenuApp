@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "menuappbll/1.0.0": {
+        "dependencies": {
+          "MenuAppDAL": "1.0.0",
+          "MenuAppEntity": "1.0.0"
+        },
+        "runtime": {
+          "MenuAppBLL.dll": {}
+        }
+      },
+      "menuappdal/1.0.0": {
+        "dependencies": {
+          "MenuAppEntity": "1.0.0"
+        },
+        "runtime": {
+          "MenuAppDAL.dll": {}
+        }
+      },
+      "menuappentity/1.0.0": {
+        "runtime": {
+          "MenuAppEntity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "menuappbll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "menuappdal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "menuappentity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

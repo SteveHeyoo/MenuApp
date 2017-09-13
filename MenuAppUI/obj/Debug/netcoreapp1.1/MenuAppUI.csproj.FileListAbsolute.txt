@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppUI.deps.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppUI.runtimeconfig.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppUI.runtimeconfig.dev.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppUI.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppUI.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppBLL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppDAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppEntity.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppBLL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppEntity.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\bin\Debug\netcoreapp1.1\MenuAppDAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\obj\Debug\netcoreapp1.1\MenuAppUI.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\obj\Debug\netcoreapp1.1\MenuAppUI.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\obj\Debug\netcoreapp1.1\MenuAppUI.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\MenuApp\MenuAppUI\obj\Debug\netcoreapp1.1\MenuAppUI.pdb
