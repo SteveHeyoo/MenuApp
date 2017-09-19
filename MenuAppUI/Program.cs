@@ -1,7 +1,5 @@
 ﻿using MenuAppBLL;
-using MenuAppEntity;
-using System;
-using System.Collections.Generic;
+using MenuAppDAL.Entities;
 using static System.Console;
 
 namespace MenuAppUI

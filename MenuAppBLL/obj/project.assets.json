@@ -2465,15 +2465,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
-          "MenuAppEntity": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "1.1.2",
-          "Microsoft.NETCore.App": "1.1.2"
-        }
-      },
-      "MenuAppEntity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v1.1",
-        "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
         }
       }
@@ -7405,17 +7397,11 @@
       "type": "project",
       "path": "../MenuAppDAL/MenuAppDAL.csproj",
       "msbuildProject": "../MenuAppDAL/MenuAppDAL.csproj"
-    },
-    "MenuAppEntity/1.0.0": {
-      "type": "project",
-      "path": "../MenuAppEntity/MenuAppEntity.csproj",
-      "msbuildProject": "../MenuAppEntity/MenuAppEntity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "MenuAppDAL >= 1.0.0",
-      "MenuAppEntity >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2"
     ]
   },
@@ -7436,9 +7422,6 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\MenuApp\\MenuAppEntity\\MenuAppEntity.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\MenuApp\\MenuAppEntity\\MenuAppEntity.csproj"
-            },
             "C:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\MenuApp\\MenuAppDAL\\MenuAppDAL.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\MenuApp\\MenuAppDAL\\MenuAppDAL.csproj"
             }

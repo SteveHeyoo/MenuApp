@@ -1,7 +1,5 @@
-﻿using MenuAppEntity;
-using System;
+﻿using MenuAppDAL.Entities;
 using System.Collections.Generic;
-using System.Text;
 
 namespace MenuAppBLL
 {

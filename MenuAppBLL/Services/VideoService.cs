@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using MenuAppEntity;
 using MenuAppDAL;
+using MenuAppDAL.Entities;
+using MenuAppBLL.BusinessObjects;
 using System.Linq;
+using MenuAppBLL.Converters;
 
 namespace MenuAppBLL.Services
 {
     class VideoService : IVideoService
     {
-
+        VideoConverter vidver = new VideoConverter();
         DALFacade facade;
         public VideoService(DALFacade facade)
         {
@@ -21,9 +22,9 @@ namespace MenuAppBLL.Services
         {
             using (var uow = facade.UnitOfWork)
             {
-                var newVid = uow.VideoRepository.Create(vid);
+                var newVid = uow.VideoRepository.Create(Convert(vid);
                 uow.Complete();
-                return newVid;
+                return vidver.Convert(newVid);
             }
         }
 
@@ -33,7 +34,7 @@ namespace MenuAppBLL.Services
             {
                 var newVid = uow.VideoRepository.Delete(Id);
                 uow.Complete();
-                return newVid;
+                return vidver.Convert(newVid);
             }
         }
 
@@ -41,7 +42,7 @@ namespace MenuAppBLL.Services
         {
             using (var uow = facade.UnitOfWork)
             {
-                return uow.VideoRepository.Get(Id);
+                return vidver.Convert(uow.VideoRepository.Get(Id));
             }
         }
 
@@ -49,7 +50,9 @@ namespace MenuAppBLL.Services
         {
             using (var uow = facade.UnitOfWork)
             {
-                return uow.VideoRepository.GetAll();
+                //Video -> VideoBO
+                //return uow.VideoRepository.GetAll(); Select(c => Convert(c)).ToList();
+                return uow.VideoRepository.GetAll().Select(vidver.Convert).ToList();
             }
         }
 
@@ -66,7 +69,7 @@ namespace MenuAppBLL.Services
                 videoFromDb.Genre = vid.Genre;
                 videoFromDb.VideoDat = vid.VideoDat;
                 uow.Complete();
-                return videoFromDb;
+                return vidver.Convert(videoFromDb);
             }
         }
     }

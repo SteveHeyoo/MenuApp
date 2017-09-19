@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v1.1": {
       "menuappbll/1.0.0": {
         "dependencies": {
-          "MenuAppDAL": "1.0.0",
-          "MenuAppEntity": "1.0.0"
+          "MenuAppDAL": "1.0.0"
         },
         "runtime": {
           "MenuAppBLL.dll": {}
@@ -114,16 +113,10 @@
       },
       "menuappdal/1.0.0": {
         "dependencies": {
-          "MenuAppEntity": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "1.1.2"
         },
         "runtime": {
           "MenuAppDAL.dll": {}
-        }
-      },
-      "menuappentity/1.0.0": {
-        "runtime": {
-          "MenuAppEntity.dll": {}
         }
       }
     }
@@ -226,11 +219,6 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.3.0.nupkg.sha512"
     },
     "menuappdal/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "menuappentity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
