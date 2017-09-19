@@ -4,7 +4,10 @@ using System.Text;
 
 namespace MenuAppDAL
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        IVideoRepository VideoRepository { get; }
+
+        int Complete();
     }
 }

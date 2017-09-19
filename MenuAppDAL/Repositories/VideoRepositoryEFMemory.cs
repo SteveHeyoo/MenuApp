@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MenuAppEntity;
 using MenuAppDAL.Context;
+using System.Linq;
 
 namespace MenuAppDAL.Repositories
 {
@@ -17,24 +18,26 @@ namespace MenuAppDAL.Repositories
 
         public Video Create(Video vid)
         {
-            context.Add(vid);
-            context.SaveChanges();
+            context.Videos.Add(vid);
+            
             return vid;
         }
 
         public Video Delete(int Id)
         {
-            throw new NotImplementedException();
+            var vid = Get(Id);
+            context.Videos.Remove(vid);
+            return vid;
         }
 
         public Video Get(int Id)
         {
-            throw new NotImplementedException();
+            return context.Videos.FirstOrDefault(x => x.Id == Id);
         }
 
         public List<Video> GetAll()
         {
-            throw new NotImplementedException();
+            return context.Videos.ToList();
         }
     }
 }

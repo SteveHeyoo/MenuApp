@@ -15,7 +15,7 @@ namespace MenuAppBLL
 
         public IVideoService VideoService //Property
         {
-            get { return new VideoService(new DALFacade().VideoRepository); }
+            get { return new VideoService(new DALFacade()); }
         }
     }
 }

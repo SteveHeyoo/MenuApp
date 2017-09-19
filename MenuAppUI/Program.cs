@@ -94,6 +94,7 @@ namespace MenuAppUI
             video.Genre = ReadLine();
             WriteLine("Video Date: ");
             video.VideoDat = ReadLine();
+            bllFacade.VideoService.Update(video);
             }
             else
             {
